@@ -1,0 +1,449 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 0 0 5px 0;
+}
+
+.nazvaniesaita > img {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    width: 180px;
+    
+}
+.slova{
+    font-size: 18px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.akcia{
+    color: red;
+    
+    margin-right: 15px;
+    letter-spacing: 1px;
+
+    
+    
+}
+:hover.akcia  {
+    text-decoration: underline;
+    cursor: pointer;
+    
+
+}
+.magazini{
+    color: black;
+    
+    margin-right: 15px;
+    letter-spacing: 1px;
+
+    
+    
+}
+:hover.magazini  {
+    text-decoration: underline;
+    cursor: pointer;
+    
+
+}
+.corporativprodashi{
+    color: black;
+    
+    margin-right: 15px;
+    letter-spacing: 1px;
+
+    
+    
+}
+:hover.corporativprodashi  {
+    text-decoration: underline;
+    cursor: pointer;
+    
+
+}
+.nomer{
+    color: rgba(52, 36, 19, 0.781);
+    
+    margin-right: 15px;
+    letter-spacing: 1px;
+
+    
+    
+}
+:hover.nomer  {
+    text-decoration: underline;
+    cursor: pointer;
+    
+
+}
+.zv{
+    color: red;
+    letter-spacing: 1px;
+}
+.lang{
+    background-color: rgb(238, 238, 238);
+    width: 5%;
+    height: 47px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    color: gray;
+    border: 2px solid black;
+}
+.opt{
+    background-color: rgba(255, 0, 0, 0.749);
+    width: 100%;
+    height: 47px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    color: gray;
+    border: 2px solid black;
+}
+
+
+:hover.zv  {
+    text-decoration: underline;
+    cursor: pointer;
+    
+
+}
+.plata > button{
+    color: green;
+    
+    margin-right: 15px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 15px;
+    border-color: green;
+    cursor: pointer;
+
+    
+    
+}
+:hover.plata  {
+    text-decoration: underline;
+    cursor: pointer;
+    
+
+}
+.vxod > a > button{
+    color: gray;
+    
+    margin-right: 15px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    padding: 11px;
+    font-size: 15px;
+    border-color:none;
+    cursor: pointer;
+    
+    
+    
+}
+:hover.vxod  {
+    text-decoration: underline;
+    cursor: pointer;
+    
+    
+
+}
+
+
+.st{
+    position: absolute;
+    top:23px;
+    left: 1177px;
+}
+.menu{
+    color: gray;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 19px;
+    
+}
+:hover.menu {
+    text-decoration: underline;
+    margin-bottom: auto;
+    cursor: pointer;
+    
+
+}
+.win{
+    position: absolute;
+    top: 92px;
+    left: 20px;
+    cursor: pointer;
+}
+.inp > input{
+    position: absolute;
+    background-color: lightgray;
+    border-color: black;
+    top: 85px;
+    left: 300px;
+    padding: 10px 420px 10px 30px ;
+    border-radius: 10px;
+    transition: 0.5s all;
+    
+}
+:hover.inp > input{
+    background-color: transparent;
+    border-style: 10px;
+    border-color: blue;
+    transition: 0.5s all;
+
+}
+.iskatel{
+    position: absolute;
+    top: 95px;
+    left: 310px;
+    cursor: pointer;
+}
+.vesi{
+    position: absolute;
+    top: 95px;
+    left: 1020px;
+}
+:hover.vesi{
+    cursor: pointer;
+}
+.serse{
+    position: absolute;
+    top: 95px;
+    left: 1063px;
+    border-left:2.2px  solid lightgray;
+    border-right:2.2px  solid lightgray;
+    padding: 0 30px ;
+    
+
+}
+:hover.serse{
+    cursor: pointer;
+}
+.telega{
+    position: absolute;
+    top: 95px;
+    left: 1160px;
+
+}
+:hover.telega{
+    cursor: pointer;
+}
+hr{
+    color: lightgrey;
+    background-color: rgb(211, 211, 211);
+}
+.posvxoda{
+    position: absolute;
+    left: 750px;
+}
+.privet{
+    font-family: sans-serif;
+    font-size: 35px;
+    margin-top: 60px;
+    margin-left: 25px;
+}
+.op{
+    font-size: 15px;
+    color: gray;
+    margin-left: 25px;
+    font-family: sans-serif;
+}
+.facebook > a > button {
+    position: relative;
+    position: absolute;
+    top: 170px;
+    left: 30px;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 10px 70px 10px 70px;
+    width: 380px;
+    margin: 0 10px;
+    font-size: 15px;
+    border: none;
+    transition: 0.5s all;
+}
+:hover.facebook > a > button {
+    background-color: darkgray;
+    transition: 0.5s all;
+
+}
+
+.kartin {
+    position: absolute;
+    left: 168px;
+    top: 180px;
+
+}
+.gogle > a > button {
+    position: relative;
+    position: absolute;
+    top: 225px;
+    left: 30px;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 10px 70px 10px 70px;
+    width: 380px;
+    margin: 0 10px;
+    font-size: 15px;
+    border: none;
+    transition: 0.5s all;
+}
+:hover.gogle > a > button {
+    background-color: darkgray;
+    transition: 0.5s all;
+
+}
+.goglekar {
+    position: absolute;
+    left: 180px;
+    top: 233px;
+    
+}
+.ili{
+    position: absolute;
+    top: 285px;
+    left: 210px;
+    font-size: 18px;
+}
+.inputelekpo > input{
+    position: absolute;
+    top: 325px;
+    width: 290px;
+    left: 80px;
+    height: 32px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    font-size: 17px;
+    padding: 10px;
+
+}
+:active.inputelekpo > input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.zvv{
+    color: red;
+    position: absolute  ;
+    top: 330px;
+    left: 77px;
+}
+.inputparol > input{
+    position: absolute;
+    top: 385px;
+    width: 290px;
+    left: 80px;
+    height: 32px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    font-size: 17px;
+    padding: 10px;
+
+}
+:active.inputparol > input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.zvvм{
+    color: red;
+    position: absolute  ;
+    top: 390px;
+    left: 77px;
+}
+.galka{
+    position: absolute;
+    top: 440px;
+    font-size: 13px;
+    color: gray;
+    left: 70px;
+}
+.neparol{
+    position: absolute;
+    top: 440px;
+    font-size: 13px;
+    color: gray;
+    left: 265px;
+}
+:hover.neparol{
+    text-decoration: underline;
+}
+.vaiti > a > button{
+    position: absolute;
+    top: 480px;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px;
+    background-color: red;
+    border-color: darkred;
+    color: white;
+    left: 55px;
+    cursor: pointer;
+}
+.vop > p{
+    position: absolute;
+    left: 100px;
+    top: 560px;
+    color: gray;
+    font-size: 16px;
+
+}
+.ot > p{
+    position: absolute;
+    left: 205px;
+    top: 560px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+
+}
+:hover.ot > p{
+    text-decoration: underline;
+
+}
+.posvxoda{
+    padding: 10px;
+    height: 100%;
+    margin: 10px;
+}
+.nazad2 > a > button{
+    margin: 15px;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    border-color: rgb(0, 51, 255);
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: rgb(14, 49, 225);
+    background-color: rgba(218, 224, 33, 0.808);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transition: 0.5s all;
+}
+:hover .nazad2 > a > button{
+    transition: 0.5s all;
+    color: rgb(225, 14, 14);
+    border-color: rgb(255, 0, 0);
+    background-color: rgba(0, 252, 21, 0.808);
+}
+
+
+
+
+
+
